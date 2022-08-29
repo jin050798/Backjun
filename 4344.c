@@ -41,7 +41,7 @@ int main(){
 			l++;
 		}
 		t = (double)count1/(double)student_num;
-		printf("%.3f\n",t*100);
+		printf("%.3f%%\n",t*100);
 		free(score);
 		k++;
 	}
